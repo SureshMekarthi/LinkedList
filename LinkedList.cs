@@ -50,5 +50,10 @@ namespace LinkedList
             }
             Console.WriteLine();
         }
+
+        private static Node InsertHead(Node head, int val)
+        {
+               return new Node(val,head);
+        }
     }
 }

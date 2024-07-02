@@ -16,5 +16,11 @@ namespace LinkedList
             this.Data = data;
             this.Next = null;
         }
+
+        public Node(int data, Node next)
+        {
+            this.Data = data;
+            this.Next = next;
+        }
     }
 }
